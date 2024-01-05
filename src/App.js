@@ -1,10 +1,14 @@
 import './App.css';
+import Navbar from './components/Navbar';
+import Sidenav from './components/Sidenav';
 
 function App() {
   return (
     <div className="App">
-    
-       <h1>NavBar</h1>
+      <div className="nav">
+        <Navbar name="Patience"/>
+        <Sidenav/>
+      </div>
        
     </div>
   );
