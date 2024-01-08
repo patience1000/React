@@ -1,6 +1,7 @@
 import React from "react";
 
 function Navbar(prop){
-    return <h1> Hello  + {prop.name}</h1>
+    console.log(prop)
+    return <h1> Hello  {prop.name} is a {prop.heroName}</h1>
 }
 export default Navbar
