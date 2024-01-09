@@ -1,5 +1,12 @@
-import React from "react"; 
+// import React from "react"; 
 
-const Sidenav = () => <h1>SideNav</h1>
+// const Sidenav = () =>
+// return(
+//     <div>
+//         <h1>SideNav</h1>
+//         <button>Action</button>
+//     </div>
+// )
+ 
 
-export default Sidenav
+// export default Sidenav
