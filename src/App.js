@@ -7,9 +7,7 @@ function App() {
   return (
     <div className="App">
       <div className="nav">
-        <Navbar name="Patience" heroName="Wonder woman">
-          <p>No one knows</p>
-        </Navbar>
+        <Navbar name="Patience" heroName="Wonder woman"/>
         <Navbar name="Pat"/>
         <Navbar name="Patie"/>
         <Sidenav/>
