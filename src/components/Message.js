@@ -1,11 +1,30 @@
 import React, {Component} from 'react'
 
-class Welcome extends Component{
+class Message extends Component{
+    constructor(){
+        super()
+        this.state = {
+            message: 'Welcome  Visitor'
+            
+        }
+    }
+
+    popUP(){
+        this.setState({
+            message: 'Thanks for subscribing'
+        }
+            
+        )
+    }
+
     render(){
         return(
-            <h1>
-                Welcome {this.}
-            </h1>
+            <div>
+                <h1>{this.state.message}</h1>
+                <button onClick={() => this.popUP()}>Subscribe</button>
+            </div>
         )
     }
 }
+
+export default Message
