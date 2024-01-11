@@ -13,14 +13,14 @@ class Message extends Component{
         this.setState({
             message: 'Thanks for subscribing'
         }
-            
-        )
+            )
     }
 
     render(){
         return(
             <div>
                 <h1>{this.state.message}</h1>
+                <h2>{this.state.number}</h2>
                 <button onClick={() => this.popUP()}>Subscribe</button>
             </div>
         )

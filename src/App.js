@@ -4,6 +4,8 @@ import Sidenav from './components/Sidenav';
 import Welcome from './components/welcome';
 import Hello from './components/Hello';
 import Message from './components/Message';
+import Counter from './components/Counter';
+
 function App() {
   return (
     <div className="App">
@@ -14,7 +16,8 @@ function App() {
         <Sidenav/>
         <Welcome/>
         <Hello/> */}
-        <Message name="Patience" heroName="Wonder woman"/> 
+        {/* <Message name="Patience" heroName="Wonder woman"/>  */}
+        <Counter/>
       </div>
        
     </div>
