@@ -10,13 +10,13 @@ function App() {
   return (
     <div className="App">
       <div className="nav">
-        {/* <Navbar name="Patience" heroName="Wonder woman"/>
-        <Navbar name="Pat"/>
+        <Navbar name="Patience" heroName="Wonder woman"/>
+        {<Navbar name="Pat"/>
         <Navbar name="Patie"/>
         <Sidenav/>
         <Welcome/>
         <Hello/> */}
-        {/* <Message name="Patience" heroName="Wonder woman"/>  */}
+        <Message name="Patience" heroName="Wonder woman"/> 
         <Counter/>
       </div>
        
