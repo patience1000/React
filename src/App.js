@@ -5,22 +5,23 @@ import Welcome from './components/welcome';
 import Hello from './components/Hello';
 import Message from './components/Message';
 import Counter from './components/Counter';
-import functionClick from './components/functionClick';
+import  Impression from './components/Impression';
 
 function App() {
   return (
     <div className="App">
-      {/* <div className="nav">
-        <Navbar name="Pmishekwo" heroName="Wonder woman"/>
+      <div className="nav">
+        {/* <Navbar name="Pmishekwo" heroName="Wonder woman"/>
         <Navbar name="Pat"/>
         <Navbar name="Patie"/>
         <Sidenav/>
         <Welcome name="Pmi" heroName="Wonder woman"/>
         <Hello/> 
         <Message name="Patience" heroName="Wonder woman"/> 
-        <Counter/> */}
-        <functionClick/>
-      {/* </div> */}
+        <Counter/>  */}
+        
+        <Impression/>
+      </div>
        
     </div>
   );

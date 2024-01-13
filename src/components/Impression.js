@@ -1,10 +1,10 @@
 import React from "react";
 
-function functionClick(){
+function Impression(){
     return(
         <div>
             <button>Click</button>
         </div>
     )
 }
-export default functionClick
+export default Impression
