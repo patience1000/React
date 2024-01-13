@@ -1,6 +1,13 @@
-import React from "react"; 
+import React, { Component } from "react"; 
 
-function Sidenav(){
-    return <h1>SideNav</h1>
+class Sidenav extends Component{
+    clickHandler = () =>{console.log('Hi')} 
+    render(){
+        return(
+            <div>
+                <button onClick={this.clickHandler}>ClassButton </button>
+            </div>
+        )
+    }
 }
 export default Sidenav

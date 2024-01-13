@@ -14,12 +14,12 @@ function App() {
         {/* <Navbar name="Pmishekwo" heroName="Wonder woman"/>
         <Navbar name="Pat"/>
         <Navbar name="Patie"/>
-        <Sidenav/>
+        
         <Welcome name="Pmi" heroName="Wonder woman"/>
         <Hello/> 
         <Message name="Patience" heroName="Wonder woman"/> 
         <Counter/>  */}
-        
+        <Sidenav/>
         <Impression/>
       </div>
        
