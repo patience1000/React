@@ -1,6 +1,8 @@
 import React from "react";
 
-function Navbar({name , heroName}){
+const Navbar = props => {
+    const {name, heroName} = props
+
     return(
             <h1> Hello  {name} is a {heroName}</h1>
     ) 
