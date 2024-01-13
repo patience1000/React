@@ -11,11 +11,11 @@ function App() {
     <div className="App">
       <div className="nav">
         <Navbar name="Patience" heroName="Wonder woman"/>
-        {<Navbar name="Pat"/>
+        <Navbar name="Pat"/>
         <Navbar name="Patie"/>
         <Sidenav/>
         <Welcome/>
-        <Hello/> */}
+        <Hello/> 
         <Message name="Patience" heroName="Wonder woman"/> 
         <Counter/>
       </div>

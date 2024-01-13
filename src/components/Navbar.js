@@ -1,9 +1,8 @@
 import React from "react";
 
-function Navbar(prop){
-    console.log(prop)
+function Navbar({name , heroName}){
     return(
-            <h1> Hello  {prop.name} is a {prop.heroName}</h1>
+            <h1> Hello  {name} is a {heroName}</h1>
     ) 
 }
 export default Navbar
