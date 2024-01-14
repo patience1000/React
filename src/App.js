@@ -6,6 +6,7 @@ import Hello from './components/Hello';
 import Message from './components/Message';
 import Counter from './components/Counter';
 import  Impression from './components/Impression';
+import EventBind from './components/Binding';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Counter/>  */}
         <Sidenav/>
         <Impression/>
+        <Binding/>
       </div>
        
     </div>
