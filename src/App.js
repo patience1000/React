@@ -6,7 +6,7 @@ import Hello from './components/Hello';
 import Message from './components/Message';
 import Counter from './components/Counter';
 import  Impression from './components/Impression';
-import EventBind from './components/Binding';
+import Binding from './components/Binding';
 
 function App() {
   return (
