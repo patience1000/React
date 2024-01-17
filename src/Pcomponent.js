@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Childcomponent from "./Childcomponent";
 
 class PComponent extends Component{
 
@@ -11,14 +12,14 @@ class PComponent extends Component{
         this.greetParent = this.greetParent.bind(this)
     }
 
-    greetParent(){
-        alert(`Hello $ {this.state.parentName}`)
+    greetParent(childName){
+        alert(`Hello ${this.state.parentName} from ${childName}`)
     }
 
     render(){
         return(
             <div>
-                
+                <Childcomponent greetHandler= {this.greetParent}/>
             </div>
         )
     }
