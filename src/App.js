@@ -7,6 +7,7 @@ import Message from './components/Message';
 import Counter from './components/Counter';
 import  Impression from './components/Impression';
 import Binding  from './components/Binding';
+import PComponent from './Pcomponent';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         {/* <Sidenav/>
         <Impression/>
         <Binding/> */}
+        <PComponent/>
       </div>   
     </div>
   );
