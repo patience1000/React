@@ -6,7 +6,7 @@ import Hello from './components/Hello';
 import Message from './components/Message';
 import Counter from './components/Counter';
 import  Impression from './components/Impression';
-import Binding from './components/Binding';
+import Binding  from './components/Binding';
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
         <Welcome name="Pmi" heroName="Wonder woman"/>
         <Hello/> 
         <Message name="Patience" heroName="Wonder woman"/> 
-        <Counter/>  */}
+        <Counter/>*/}
         <Sidenav/>
         <Impression/>
         <Binding/>
