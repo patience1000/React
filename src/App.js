@@ -20,11 +20,10 @@ function App() {
         <Hello/> 
         <Message name="Patience" heroName="Wonder woman"/> 
         <Counter/>*/}
-        <Sidenav/>
+        {/* <Sidenav/>
         <Impression/>
-        <Binding/>
-      </div>
-       
+        <Binding/> */}
+      </div>   
     </div>
   );
 }
