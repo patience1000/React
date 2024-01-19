@@ -1,8 +1,15 @@
 import React, { Component } from "react";
 
+class Usergreeting extends Component{
+    constructor(props){
+        super(props)
+        this.state = {
+            isLoggedIn: false
+        }
+    }
+}
 
-
-    render(){
+    // render(){
         // return  this.state.isLoggedIn && <div>Welcome Patience</div>
         // Tenary condition operator
         // return(
@@ -33,6 +40,6 @@ import React, { Component } from "react";
         //     )
         // }
        
-        }
-}
+        // }
+// }
 export default Usergreeting
