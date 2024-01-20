@@ -10,7 +10,8 @@ class Usergreeting extends Component{
 }
 
     // render(){
-        // return  this.state.isLoggedIn && <div>Welcome Patience</div>
+    //     return  this.state.isLoggedIn && <div>Welcome Patience</div>
+    //     )
         // Tenary condition operator
         // return(
         //     this.state.isLoggedIn ?
@@ -18,13 +19,13 @@ class Usergreeting extends Component{
         //     <div>Welcome Guest</div>
         // )
         // Element approach
-        let message 
-        if (this.state.isLoggedIn){
-            message = <div>Welcome Patience</div>
-        }else{
-            message = <div>Welcome Guest</div>
-        }
-        return <div>{message}</div>
+        // let message 
+        // if (this.state.isLoggedIn){
+        //     message = <div>Welcome Patience</div>
+        // }else{
+        //     message = <div>Welcome Guest</div>
+        // }
+        // return <div>{message}</div>
 
         // if(this.state.isLoggedIn){
         //     return(
