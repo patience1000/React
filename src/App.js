@@ -9,6 +9,7 @@ import  Impression from './components/Impression';
 import Binding  from './components/Binding';
 import PComponent from './Pcomponent';
 import Usergreeting from './Usergreeting';
+import List from './components/List';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Binding/> */}
         {/* <PComponent/> */}
         <Usergreeting/>
+        <list/>
       </div>   
     </div>
   );
