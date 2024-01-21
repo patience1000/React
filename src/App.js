@@ -27,8 +27,8 @@ function App() {
         <Impression/>
         <Binding/> */}
         {/* <PComponent/> */}
-        <Usergreeting/>
-        <list/>
+        {/* <Usergreeting/> */}
+        <List/>
       </div>   
     </div>
   );

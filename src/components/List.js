@@ -1,10 +1,9 @@
 import React from "react";
 
 function List(){
-    let Fruits
-    Fruits = ['Banana','Grape','Guava', 'Pawpaw']
+   var Fruits = [1,4,6,8]
     return(
-        console.log(Fruits)
+        console.log()
     )
     
 }
