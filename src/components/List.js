@@ -1,9 +1,9 @@
-import React from "react";
 
 function List(){
-   var Fruits = [1,4,6,8]
+   var array = [1,4,6,8]
+   const map1 = array.map(x => x*2)
     return(
-        console.log()
+        console.log(map1)
     )
     
 }
