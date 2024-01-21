@@ -1,9 +1,16 @@
+import React from "react";
 
 function List(){
-   var array = [1,4,6,8]
-   const map1 = array.map(x => x*2)
+  
+    const names = ['Ada','Obinna','chizoba']
+//    const map1 = names.map(x => x*2)
     return(
-        console.log(map1)
+        <div>
+            <h3>{names[0]}</h3>
+            <h3>{names[1]}</h3>
+            <h3>{names[2]}</h3>
+            <h3>{names[3]}</h3>
+        </div>
     )
     
 }
