@@ -10,6 +10,7 @@ import Binding  from './components/Binding';
 import PComponent from './Pcomponent';
 import Usergreeting from './Usergreeting';
 import List from './components/List';
+import Person from './components/Person';
 
 function App() {
   return (
