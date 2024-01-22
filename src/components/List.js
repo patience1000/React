@@ -22,7 +22,7 @@ function List(){
         skill: 'Vue'
     }
 ]
-    const personList = persons.map(person => <h2>I am {person.name}, I am {person.age} years old and I am a {person.skill} expert</h2>)
+    const personList = persons.map(person => <h2>{person.id}. I am {person.name}, I am {person.age} years old and I am a {person.skill} expert. </h2>)
     return(
         <div>
             { personList}
