@@ -19,8 +19,9 @@ function List(){
         age: '15',
         skill: 'Vue'
     }]
-    const humansList =  humans.map(human => <h2></h2>)
+    const humansList =  humans.map(human => <Human human={human} />)
+
     return(<div>{humansList}</div>)
 }
-
+ 
 export default List

@@ -1,5 +1,5 @@
 import React from "react";
-function Human(){
+function Human({human}){
     return(
         <div>
             <h2>
