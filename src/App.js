@@ -10,7 +10,6 @@ import Binding  from './components/Binding';
 import PComponent from './Pcomponent';
 import Usergreeting from './Usergreeting';
 import List from './components/List';
-import Person from './components/Person';
 
 function App() {
   return (
@@ -23,14 +22,13 @@ function App() {
         <Welcome name="Pmi" heroName="Wonder woman"/>
         <Hello/> 
         <Message name="Patience" heroName="Wonder woman"/> 
-        <Counter/>*/}
+        <Counter/> */}
         {/* <Sidenav/>
         <Impression/>
         <Binding/> */}
         {/* <PComponent/> */}
         {/* <Usergreeting/> */}
         <List/>
-        <Person/>
       </div>   
     </div>
   );

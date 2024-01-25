@@ -1,9 +1,7 @@
 import React from "react";
 
 function List(){
-  
-    const persons = [
-        {
+    const humans = [  {
             id: 1,
             name: 'Bruce',
             age: '30',
@@ -20,15 +18,9 @@ function List(){
         name: 'Preye',
         age: '15',
         skill: 'Vue'
-    }
-]
-    const personList = persons.map(Person => <Person key={Person.id} person={Person} />)
-    return(
-        <div>
-            {personList}
-        </div>
-    )
-    
+    }]
+    const humansList =  humans.map(human => <h2></h2>)
+    return(<div>{humansList}</div>)
 }
 
 export default List
