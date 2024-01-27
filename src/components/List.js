@@ -20,7 +20,7 @@ function List(){
         age: '15',
         skill: 'Vue'
     }]
-    const humansList = humans.map(human => <Human key={human.name} human={human} />)
+    const humansList = humans.map(human => <Human key={human.name} human={human}/>)
 
     return(<div>{humansList}</div>)
 }   
