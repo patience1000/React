@@ -1,5 +1,9 @@
-import React, {Component} from React
+import React from "react";
 
-class CssStyle extends Component{
-    
+function CssStyle(){
+    return(
+        <div>
+            
+        </div>
+    )
 }
