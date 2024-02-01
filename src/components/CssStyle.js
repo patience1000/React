@@ -4,7 +4,7 @@ function CssStyle(){
     
     return(
         <div>
-            <h2>Hello Peopleg</h2>
+            <h2>Hello People</h2>
         </div>
     )
 }
