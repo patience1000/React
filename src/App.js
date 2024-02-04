@@ -10,7 +10,7 @@ import Binding  from './components/Binding';
 import PComponent from './Pcomponent';
 import Usergreeting from './Usergreeting';
 import List from './components/List';
-import
+import CssStyle from './components/CssStyle';
 
 function App() {
   return (
@@ -30,6 +30,7 @@ function App() {
         {/* <PComponent/> */}
         {/* <Usergreeting/> */}
         <List/>
+        <CssStyle/>
       </div>   
     </div>
   );
