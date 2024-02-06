@@ -1,10 +1,11 @@
 import React from "react";
 
 function CssStyle(){
-    
+    const name = "John"
+    const isNameShowing = false;
     return(
         <div>
-            <h2>Hello People,how are you dey now</h2>
+            <h2> Hello {isNameShowing ? name: "someone"}</h2>
         </div>
     )
 }

@@ -29,7 +29,7 @@ function App() {
         <Binding/> */}
         {/* <PComponent/> */}
         {/* <Usergreeting/> */}
-        <List/>
+        {/* <List/> */}
         <CssStyle/>
       </div>   
     </div>
