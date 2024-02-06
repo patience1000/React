@@ -5,7 +5,13 @@ function CssStyle(){
     const isNameShowing = false;
     return(
         <div>
-            <h2> Hello {isNameShowing ? name: "someone"}</h2>
+            {isNameShowing ? (
+                <>
+                    {name}
+                </>
+            ):(
+                <h2>There is no name</h2>
+            )}
         </div>
     )
 }
