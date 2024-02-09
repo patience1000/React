@@ -19,17 +19,18 @@ import { useState, useEffect } from "react";
 // }
 const CssStyle = () => {
     const [counter, setCounter] = useState(0);
+
     useEffect (() => {
-        alert(" Hello World")        
-    })
-}
-//     return(
-//         <div className="App">
-//         <button onClick={() => setCounter((prevCount) => prevCount-1)}>-</button>
-//         <h1>{counter}</h1>
-//         <button onClick={() => setCounter ((prevCount) => prevCount+1)}>+</button>
-//         </div>
+        alert('You changed counter to '+ counter);      
+    },[counter]);
+
+    return(
+        <div className="App">
+        <button onClick={() => setCounter((prevCount) => prevCount-1)}>-</button>
+        <h1>{counter}</h1>
+        <button onClick={() => setCounter ((prevCount) => prevCount+1)}>+</button>
+        </div>
         
-//     )
-// }
+    );
+    }
 export default CssStyle
