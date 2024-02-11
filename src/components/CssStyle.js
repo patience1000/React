@@ -21,7 +21,7 @@ const CssStyle = () => {
     const [counter, setCounter] = useState(0);
 
     useEffect (() => {
-        alert('You changed counter to '+ counter);      
+        alert('You changed counter to the number to'+ counter);      
     },[counter]);
 
     return(
