@@ -16,6 +16,12 @@ function App() {
   return (
     <div className="App">
       <div className="nav">
+        <a href='#'>List</a>
+        <a href='#'>CssStyle</a>
+        <a href='#'>CssStyle</a>
+        <a href='#'>CssStyle</a>
+        <a href='#'>CssStyle</a>
+      </div>
         {/* <Navbar name="Pmishekwo" heroName="Wonder woman"/>
         <Navbar name="Pat"/>
         <Navbar name="Patie"/>
@@ -29,9 +35,8 @@ function App() {
         <Binding/> */}
         {/* <PComponent/> */}
         {/* <Usergreeting/> */}
-        {/* <List/> */}
+        <List/>
         <CssStyle/>
-      </div>   
     </div>
   );
 }

@@ -20,9 +20,9 @@ import { useState, useEffect } from "react";
 const CssStyle = () => {
     const [counter, setCounter] = useState(0);
 
-    useEffect (() => {
-        alert('You changed counter to the number to'+ counter);      
-    },[counter]);
+    // useEffect (() => {
+    //     alert('You changed counter to the number to'+ counter);      
+    // },[counter]);
 
     return(
         <div className="App">
