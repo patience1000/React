@@ -1,6 +1,7 @@
 import React from "react";
 import Human from "./Human"
 
+
 function List(){
     const humans = [  {
             id: 1,
@@ -24,5 +25,7 @@ function List(){
 
     return(<div>{humansList}</div>)
 }   
+
+
  
 export default List

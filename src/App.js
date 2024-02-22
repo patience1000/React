@@ -11,6 +11,7 @@ import PComponent from './Pcomponent';
 import Usergreeting from './Usergreeting';
 import List from './components/List';
 import CssStyle from './components/CssStyle';
+import showAnimal from './components/ShowAnimal';
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
         {/* <Usergreeting/> */}
         <List/>
         <CssStyle/>
+        <showAnimal/>
     </div>
   );
 }
