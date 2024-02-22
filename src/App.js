@@ -51,7 +51,7 @@ function App() {
         alt='Table'
         src={require("./assets/images/multi.jpg")}/>
         <video src='Choir' width={350} height={200} controls />
-        {/* <ShowAnimal/> */}
+        <ShowAnimal/>
     </div>
   );
 }

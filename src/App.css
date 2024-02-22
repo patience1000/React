@@ -5,3 +5,20 @@
   text-align: center;
   background-color: rgb(136, 160, 160);
 }
+.form{
+  height: 100vh;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form{
+  padding: 50px;
+  /* background-color: rgb(207, 233, 238); */
+}
+input{
+  border: none;
+  background: #f1f1f1;
+  display: block;
+  border-radius: 5px;
+}
