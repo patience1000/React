@@ -11,7 +11,9 @@ import PComponent from './Pcomponent';
 import Usergreeting from './Usergreeting';
 import List from './components/List';
 import CssStyle from './components/CssStyle';
-import showAnimal from './components/ShowAnimal';
+import ShowAnimal from './components/ShowAnimal';
+import Table from './assets/images/Table.jpg';
+import Choir from './assets/images/Choir.mp4'
 
 function App() {
   return (
@@ -38,7 +40,18 @@ function App() {
         {/* <Usergreeting/> */}
         <List/>
         <CssStyle/>
-        <showAnimal/>
+
+        <img 
+        height={200}
+        alt='Table'
+        src={Table} />
+
+        <img 
+        height={200}
+        alt='Table'
+        src={require("./assets/images/multi.jpg")}/>
+        <video src='Choir' width={350} height={200} controls />
+        {/* <ShowAnimal/> */}
     </div>
   );
 }

@@ -1,11 +1,11 @@
-import React from 'react';
-import Table from './assets/images/download.jfif';
+// import React from 'react';
 
-function showAnimal(){
-    return(
-        <div>
-            <img src={Table} alt="A picture of Table"/>
-        </div>
-    )
-}
-export default showAnimal;
+
+// function showAnimal(){
+//     return(
+//         <div>
+//             <img src={Table} alt="A picture of Table"/>
+//         </div>
+//     )
+// }
+// export default showAnimal;
