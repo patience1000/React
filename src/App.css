@@ -7,18 +7,21 @@
 }
 .form{
   height: 100vh;
-  background-color: aqua;
+  /* background-color: aqua; */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 form{
+  color: #fff;
   padding: 50px;
+  background-color: rgb(23, 168, 144);
   /* background-color: rgb(207, 233, 238); */
 }
 input{
   border: none;
-  background: #f1f1f1;
+  background: #fff;
   display: block;
+  /* color: #fff; */
   border-radius: 5px;
 }
