@@ -25,3 +25,9 @@ input{
   /* color: #fff; */
   border-radius: 5px;
 }
+
+p{
+  width: 500px;
+  height: 500px;
+  background-color: aliceblue;
+}
