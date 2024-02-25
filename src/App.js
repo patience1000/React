@@ -14,6 +14,7 @@ import CssStyle from './components/CssStyle';
 import ShowAnimal from './components/ShowAnimal';
 import Table from './assets/images/Table.jpg';
 import Choir from './assets/images/Choir.mp4'
+import Calculator from './components/Calculator'
 
 function App() {
   return (
@@ -38,10 +39,12 @@ function App() {
         <Binding/> */}
         {/* <PComponent/> */}
         {/* <Usergreeting/> */}
-        <List/>
-        <CssStyle/>
-
-        <img 
+        <br/>
+        <Calculator/>
+        {/* <List/> */}
+        {/* <CssStyle/> */}
+        
+        {/* <img 
         height={200}
         alt='Table'
         src={Table} />
@@ -50,8 +53,8 @@ function App() {
         height={200}
         alt='Table'
         src={require("./assets/images/multi.jpg")}/>
-        <video src='Choir' width={350} height={200} controls />
-        <ShowAnimal/>
+        <video src='Choir' width={350} height={200} controls /> */}
+        {/* <ShowAnimal/> */}
     </div>
   );
 }
