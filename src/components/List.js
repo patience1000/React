@@ -1,5 +1,5 @@
 import React from "react";
-import Human from "./Human"
+import Human from "./Calculator"
 
 
 function List(){
