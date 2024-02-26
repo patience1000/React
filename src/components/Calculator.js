@@ -49,7 +49,7 @@ function Calculator(){
 
             <button onClick={plus}>Add</button>
             <button onClick={minus}>minus</button>
-            <button onClick={times}>times</button>
+            <button onClick={times}>multiply</button>
             <button onClick={divide}>divide</button>
             <button onClick={resetInput}>resetInput</button>
             <button onClick={resetResult}>resetResult</button>
