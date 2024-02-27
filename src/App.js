@@ -15,6 +15,7 @@ import ShowAnimal from './components/ShowAnimal';
 import Table from './assets/images/Table.jpg';
 import Choir from './assets/images/Choir.mp4'
 import Calculator from './components/Calculator'
+import LearnUseRef from './components/LearnUseRef';
 
 function App() {
   return (
@@ -43,7 +44,7 @@ function App() {
         <Calculator/>
         {/* <List/> */}
         {/* <CssStyle/> */}
-        
+        <LearnUseRef/>
         {/* <img 
         height={200}
         alt='Table'
