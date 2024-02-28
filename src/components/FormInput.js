@@ -1,17 +1,25 @@
-import React from "react";
+import React, { useState } from "react";
 
 function FormInput(){
+    const [name, setName] = useState()
+
+    const handleSubmit = (e) =>{
+        e.preventDefault();
+        setName("");
+        alert('Form submitted successfully')
+    }
     return(
         <div>
-            <form>
+            <form onSubmit={handleSubmit}>
                 <fieldset>
                     <div>
-                        <label>
+                        <label htmlFor="name">
                             Name:
                         </label>
-                        <input type="text" placeholder="Name" name="name"/>
+                        <input type="text" placeholder="Name" name="name" id="name"
+                        value={name} onChange={e => setName(e.target.value) }/>
                     </div>
-                       <button type="submit" >Submit</button>
+                       <button disabled={!name} type="submit" >Submit</button>
                 </fieldset>
             </form>
         </div>
