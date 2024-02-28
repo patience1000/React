@@ -16,6 +16,7 @@ import Table from './assets/images/Table.jpg';
 import Choir from './assets/images/Choir.mp4'
 import Calculator from './components/Calculator'
 import LearnUseRef from './components/LearnUseRef';
+import FormInput from './components/FormInput';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <a href='#'>CssStyle</a>
         <a href='#'>CssStyle</a>
       </div>
+      <FormInput/>
         {/* <Navbar name="Pmishekwo" heroName="Wonder woman"/>
         <Navbar name="Pat"/>
         <Navbar name="Patie"/>
@@ -41,10 +43,10 @@ function App() {
         {/* <PComponent/> */}
         {/* <Usergreeting/> */}
         <br/>
-        <Calculator/>
-        <List/>
+        {/* <Calculator/> */}
+        {/* <List/> */}
         {/* <CssStyle/> */}
-        <LearnUseRef/>
+        {/* <LearnUseRef/> */}
         {/* <img 
         height={200}
         alt='Table'
