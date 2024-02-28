@@ -2,7 +2,7 @@ import React from "react";
 import Human from "./Human"
 
 
-function List(){
+
     const humans = [  {
             id: 1,
             name: 'Bruce',
@@ -21,10 +21,20 @@ function List(){
         age: '15',
         skill: 'Vue'
     }]
-    const humansList = humans.map (human => <Human key={human.name} human={human}/>)
+    // const humansList = humans.map (human => <Human key={human.name} human={human}/>)
 
-    return(<div>{humansList}</div>)
-}   
+    const Lists = humans.map(humans => {
+        return{
+            content: `${humans.name} - ${humans.skill}`,
+            skill: humans.skill
+    }
+    })
+
+    function List(){
+    console.log(Lists)
+    }
+    // return(<div>{humansList}</div>)
+  
 
 
  
