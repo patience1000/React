@@ -3,11 +3,19 @@ import React from "react";
 
  export default function LearnUseRef (){
     const [name, setName] = useState("")
-    const renderCount = useRef(0)
+    const prevName = useRef()
 
-    useEffect(() => {
-        renderCount.current = renderCount.current + 1
-        })
+
+    useEffect(() =>{
+        prevName.current = name 
+    },[name])
+    
+
+    // function focus(){
+    //     inputRef.current.focus()
+
+    //     inputRef.current.value = 'some value'
+    // }
 
     return(
         <>
@@ -15,9 +23,9 @@ import React from "react";
 
             <input value={name} onChange={e => setName(e.target.value) } />
 
-            <p>my name is {name}</p>
+            <p>my name is {name} it used to be {prevName.current}</p>
 
-            I rendered {renderCount} times
+            {/* <button onClick={focus}>Focus</button> */}
         </>
     )
 }

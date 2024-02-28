@@ -42,7 +42,7 @@ function App() {
         {/* <Usergreeting/> */}
         <br/>
         <Calculator/>
-        {/* <List/> */}
+        <List/>
         {/* <CssStyle/> */}
         <LearnUseRef/>
         {/* <img 
