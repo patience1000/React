@@ -25,7 +25,7 @@ import React from "react";
 
             <p>my name is {name} it used to be {prevName.current}</p>
 
-            {/* <button onClick={focus}>Focus</button> */}
+            <button onClick={focus}>Focus</button>
         </>
     )
 }
