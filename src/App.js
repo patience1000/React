@@ -17,6 +17,7 @@ import Choir from './assets/images/Choir.mp4'
 import Calculator from './components/Calculator'
 import LearnUseRef from './components/LearnUseRef';
 import FormInput from './components/FormInput';
+import Page from './components/Page';
 
 function App() {
   return (
@@ -28,7 +29,9 @@ function App() {
         <a href='#'>CssStyle</a>
         <a href='#'>CssStyle</a>
       </div>
-      <FormInput/>
+
+      <Page/>
+      {/* <FormInput/> */}
         {/* <Navbar name="Pmishekwo" heroName="Wonder woman"/>
         <Navbar name="Pat"/>
         <Navbar name="Patie"/>
