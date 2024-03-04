@@ -17,20 +17,48 @@ import Choir from './assets/images/Choir.mp4'
 import Calculator from './components/Calculator'
 import LearnUseRef from './components/LearnUseRef';
 import FormInput from './components/FormInput';
-import Page from './components/Page';
+// import Page from './components/Page';
+import { UserProvider, useUser } from './UserContext';
+
+
+const LoggedInUser = ()  =>{
+    const {user} = useUser();
+    return(
+        <p>Hello <span>{user.name}</span></p>
+    );
+};
+
+const Header = () =>{
+    return(
+        <header>
+        <h2> Blog App</h2>
+        <LoggedInUser/>
+        </header>
+        
+    );
+};
+
+const Page = () =>{
+   const {user} = useUser(); 
+    return(
+      <div>
+        <h2> What is Lorem Ispun?</h2>
+
+        <p> lorem Ispun ame fhgjtjthrgregrhyjyftgy6u5j45g5jy65htthjgkuyjregr</p>
+        <p>Written by {user.name}</p>
+      </div>
+    );
+};
+
 
 function App() {
   return (
-    <div className="App">
-      <div className="nav">
-        <a href='#'>List</a>
-        <a href='#'>CssStyle</a>
-        <a href='#'>CssStyle</a>
-        <a href='#'>CssStyle</a>
-        <a href='#'>CssStyle</a>
-      </div>
+    <div>
+   <Header/>
+   <Page/>
 
-      <Page/>
+      {/* <Page/> */}
+
       {/* <FormInput/> */}
         {/* <Navbar name="Pmishekwo" heroName="Wonder woman"/>
         <Navbar name="Pat"/>
@@ -63,5 +91,10 @@ function App() {
         {/* <ShowAnimal/> */}
     </div>
   );
+ 
 }
-export default App;
+function Root(){
+  return <UserProvider><App/></UserProvider>
+}
+export default Root;
+// export default App;
