@@ -17,7 +17,7 @@ import Choir from './assets/images/Choir.mp4'
 import Calculator from './components/Calculator'
 import LearnUseRef from './components/LearnUseRef';
 import FormInput from './components/FormInput';
-// import Page from './components/Page';
+import Page from './components/Page';
 import { UserProvider, useUser } from './UserContext';
 
 
